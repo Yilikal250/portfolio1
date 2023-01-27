@@ -58,3 +58,82 @@ nav {
   margin: 5px;
   margin-left: 24px;
 }
+
+.firsttDetail {
+  background-image: url("./images/youngface.png");
+  background-repeat: no-repeat;
+  background-position-x: 48%;
+  background-position-y: 5%;
+  padding-top: 220px;
+  padding-left: 19%;
+  padding-right: 19%;
+  margin-top: 114px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+}
+
+#tonic {
+  width: 295px;
+  height: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+#detail {
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.date {
+  display: flex;
+  padding: 10px 10px;
+}
+
+.secondDetail {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 114px;
+  background-color: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+}
+
+.thirdDetail {
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+}
+
+.fourthDetail {
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+}
+
+.About {
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+}
