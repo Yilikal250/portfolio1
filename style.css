@@ -1,6 +1,42 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.menu h1 {
+  margin-left: -35px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
 .humburger {
   width: 35px;
   height: 5px;
   background-color: black;
   margin: 6px 0;
+}
+
+#name {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color:#172b4d;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#disc {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 24px;
+  margin-right: 24px;
 }
