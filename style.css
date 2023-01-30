@@ -445,7 +445,6 @@ nav {
   background-repeat: no-repeat;
   padding-top: 15px;
   padding-bottom: 30px;
-  padding-top: 15px;
   padding-left: 70px;
   padding-right: 70px;
   margin-left: 20px;
@@ -496,7 +495,7 @@ nav {
 
 footer {
   width: 375px;
-  height: 779px;
+  height: 890px;
   left: 0px;
   top: 5410px;
   background: #6070FF;
@@ -550,10 +549,19 @@ input {
   border-radius: 8px;
   margin-bottom: 10px;
   text-align: left;
+  height: 48px;
 }
 
-::placeholder {
+input::placeholder {
   padding-left: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
 }
 
 textarea {
@@ -562,8 +570,17 @@ textarea {
   border-radius: 8px;
 }
 
-textarea ::placeholder {
+textarea::placeholder {
   padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #B3BAC5;
 }
 
 footer button {
@@ -574,9 +591,20 @@ footer button {
   background: #FFFFFF;
   border: 1px solid #DFE1E6;
   margin-top: -10px;
+  margin-bottom: 20px;
   margin-left: 35px;
   width: 120px;
   height: 50px;
   color: #6070FF;
   border-radius: 8px;
+}
+
+#lineFoot {
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px/2 - 0.5px);
+  bottom: 8px;
+  background: #0D151E;
+  border-radius: 10px;
+  margin-top: 40px;
 }
