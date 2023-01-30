@@ -342,4 +342,241 @@ nav {
   background-color: #FFFFFF;
   border: 1px solid #DFE1E6;
   border-radius: 16px;
+  height: 1023px;
+}
+
+#about {
+  width: 105px;
+  height: 80px;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#aboutDetail {
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 19%;
+  padding-right: 19%;
+}
+
+#aboutConnect {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #7F8CFF;
+  margin-top: 100px;
+}
+
+#aboutseeProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+  margin-top: 30px;
+  width: 120px;
+  height: 50px;
+  color: #6070FF;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#language {
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#javaScript {
+  background-image: url("./images/Js.png");
+  background-repeat: no-repeat;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#html {
+  background-image: url("./images/Html.png");
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#css {
+  background-image: url("./images/css.png");
+  background-repeat: no-repeat;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.languageContainer {
+  justify-content: space-between;
+}
+
+#frame {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#skills {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-left: 130px;
+}
+
+.right2 {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-left: 170px;
+}
+
+.languageContainer hr {
+  height: 0.1px;
+  margin-left: 24px;
+  margin-right: 24px;
+  background: #DFE1E6;
+}
+
+footer {
+  width: 375px;
+  height: 779px;
+  left: 0px;
+  top: 5410px;
+  background: #6070FF;
+  border-top-left-radius: 100px;
+}
+
+#contact {
+  margin-top: 103px;
+  width: 801px;
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 140px;
+
+}
+
+#footerDetail {
+  text-align: center;
+  width: 327px;
+  height: 102px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #EBEBFF;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+form {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  border: 1px;
+  border-radius: 8px;
+}
+
+input {
+  border: 1px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+::placeholder {
+  padding-left: 10px;
+}
+
+textarea {
+  margin-top: 10px;
+  border: 1px;
+  border-radius: 8px;
+}
+
+textarea ::placeholder {
+  padding-left: 10px;
+}
+
+footer button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  margin-top: -10px;
+  margin-left: 35px;
+  width: 120px;
+  height: 50px;
+  color: #6070FF;
+  border-radius: 8px;
 }
