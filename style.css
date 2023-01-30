@@ -11,12 +11,48 @@ nav {
   margin-right: 6%;
 }
 
-.fa-times {
-  display: none;
+a:link {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.mainMenu {
+  margin-top: 20%;
+  height: 24px;
+  top: calc(50% - 24px/2);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  color: white;
+}
+
+.mainMenu a {
+  color: white;
+}
+
+.closeMenu {
+  margin-right: 30px;
+  margin-top: 30px;
 }
 
 .fa-bars {
-  margin-top: 8px;
+  margin-top: 22px;
+}
+
+.popup {
+  position: absolute;
+  background-color: #6070FF;
+  height: 570px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
 .humburger {

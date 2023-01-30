@@ -1,18 +1,16 @@
-const mainMenue =document.querySelector('.mainMenu');
+const popup =document.querySelector('.popup');
 const closeMenu =document.querySelector('.closeMenu');
-const openMenue =document.querySelector('.openMenu');
+const openMenu =document.querySelector('.openMenu');
 
 
-openMenue.addEventListener('click',show);
-openMenue.addEventListener('click',close);
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
 
 function show() {
-   mainMenue.getElementsByClassName.display = 'flex';
-   mainMenue.getElementsByClassName.top ='0'
+    popup.style.display = 'flex';
+    popup.style.top ='0'
 }
 
 function close() {
-    mainMenue.style.top ='-100%'
+    popup.style.top ='-100%'
  }
-
-
