@@ -495,7 +495,7 @@ nav {
 
 footer {
   width: 375px;
-  height: 890px;
+  height: 940px;
   left: 0px;
   top: 5410px;
   background: #6070FF;
@@ -504,7 +504,6 @@ footer {
 
 #contact {
   margin-top: 103px;
-  width: 801px;
   height: 56px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -524,7 +523,7 @@ footer {
 #footerDetail {
   text-align: center;
   width: 327px;
-  height: 102px;
+  height: 150px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
