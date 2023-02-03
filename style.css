@@ -102,10 +102,6 @@ ul li {
 }
 
 .firsttDetail {
-  background-image: url("./images/youngface.png");
-  background-repeat: no-repeat;
-  background-position-x: 48%;
-  background-position-y: 5%;
   padding-top: 220px;
   padding-left: 19%;
   padding-right: 19%;
@@ -119,6 +115,10 @@ ul li {
   margin-left: 24px;
   margin-right: 24px;
   height: 390px;
+}
+
+#firstImg {
+  margin-top: -210px;
 }
 
 .date {
@@ -173,9 +173,6 @@ ul li {
 }
 
 #number {
-  background: url("./images/circle.png");
-  background-repeat: no-repeat;
-  background-position-y: 30%;
   font-family: 'Poppins', sans-serif;
   padding-left: 25px;
   margin-left: -15px;
@@ -222,10 +219,6 @@ ul li {
 }
 
 .secondtDetail {
-  background-image: url("./images/lady.png");
-  background-repeat: no-repeat;
-  background-position-x: 48%;
-  background-position-y: 5%;
   padding-top: 220px;
   padding-left: 19%;
   padding-right: 19%;
@@ -292,10 +285,6 @@ ul li {
 }
 
 .thirdDetail {
-  background-image: url("./images/redcircle.png");
-  background-repeat: no-repeat;
-  background-position-x: 48%;
-  background-position-y: 5%;
   padding-top: 220px;
   padding-left: 19%;
   padding-right: 19%;
@@ -335,10 +324,6 @@ ul li {
 }
 
 .fourthDetail {
-  background-image: url("./images/Professional.png");
-  background-repeat: no-repeat;
-  background-position-x: 48%;
-  background-position-y: 5%;
   padding-top: 220px;
   padding-left: 19%;
   padding-right: 19%;
@@ -595,7 +580,7 @@ input {
 
 input::placeholder {
   padding-left: 10px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -614,7 +599,7 @@ textarea {
 textarea::placeholder {
   padding-left: 10px;
   padding-top: 10px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -648,4 +633,135 @@ footer button {
   background: #0D151E;
   border-radius: 10px;
   margin-top: 40px;
+}
+
+@media screen and (min-width: 760px) {
+  .introduction {
+    margin: 8% 8% 8% 8%;
+  }
+
+  #name {
+    width: 365px;
+    height: 122px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    color: #091E42;
+  }
+
+  .firsttDetail {
+    margin: 8% 8% 8% 8%;
+    background-image: url("./images/Snapshoot\ Portfolio.png");
+    background-repeat: no-repeat;
+    border: 1px solid #DFE1E6;
+    border-radius: 24px;
+    background-size: 45%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-position-y: 46%;
+    background-position-x: 8%;
+  }
+
+  .first {
+    margin-bottom: 53%;
+    margin-left: 54%;
+  }
+
+  .secondtDetail {
+    margin: 8% 8% 8% 8%;
+    background-image: url("./images/Snapshoot\ Portfolio.png");
+    background-repeat: no-repeat;
+    border: 1px solid #DFE1E6;
+    border-radius: 24px;
+    background-size: 45%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-position-y: 46%;
+    background-position-x: 93%;
+  }
+
+  .second {
+    margin-bottom: 53%;
+    margin-left: -32%;
+  }
+
+  .thirdDetail {
+    margin: 8% 8% 8% 8%;
+    background-image: url("./images/Snapshoot\ Portfolio.png");
+    background-repeat: no-repeat;
+    border: 1px solid #DFE1E6;
+    border-radius: 24px;
+    background-size: 45%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-position-y: 46%;
+    background-position-x: 8%;
+  }
+
+  .third {
+    margin-bottom: 53%;
+    margin-left: 54%;
+  }
+
+  .fourthDetail {
+    margin: 8% 8% 8% 8%;
+    background-image: url("./images/Snapshoot\ Portfolio.png");
+    background-repeat: no-repeat;
+    border: 1px solid #DFE1E6;
+    border-radius: 24px;
+    background-size: 45%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-position-y: 46%;
+    background-position-x: 8%;
+  }
+
+  .fourth {
+    margin-bottom: 53%;
+    margin-left: 54%;
+  }
+
+  .About {
+    display: flex;
+    height: 550px;
+    width: fit-content;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .languagesDetail {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .languageContainer {
+    margin-top: 50px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 81%;
+  }
+
+  .right2 {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 88%;
+  }
+
+  .aboutDetail {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
 }
