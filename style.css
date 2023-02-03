@@ -636,6 +636,12 @@ footer button {
 }
 
 @media screen and (min-width: 760px) {
+  header {
+    background-image: url("./images/halfcircle.png"), url("./images/Rectangle\ 6.png");
+    background-position: 4% 20%, 0.8% 10%;
+    background-repeat: no-repeat, no-repeat;
+  }
+
   .introduction {
     margin: 8% 8% 8% 8%;
   }
@@ -735,8 +741,7 @@ footer button {
     height: 550px;
     width: fit-content;
     align-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto;
   }
 
   .languagesDetail {
@@ -763,5 +768,35 @@ footer button {
   .aboutDetail {
     margin-top: 50px;
     margin-left: 50px;
+  }
+
+  footer {
+    width: 98vw;
+    height: 800px;
+  }
+
+  #contact {
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 41%;
+  }
+
+  #footerDetail {
+    text-align: center;
+    margin: auto;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 550px;
+  }
+
+  #lineFoot {
+    display: none;
+  }
+
+  footer button {
+    margin: auto;
+    margin-bottom: -20%;
   }
 }
