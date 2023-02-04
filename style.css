@@ -637,12 +637,25 @@ footer button {
 
 @media screen and (min-width: 760px) {
   body {
-    background-color: antiquewhite;
+    background-color: floralwhite;
+  }
+
+  .menu {
+    background-image: url("./images/robo.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position-x: 25%;
+    background-position-y: 46%;
+    width: 101%;
+    background-color: teal;
+    margin-left: -8px;
+    margin-top: -10px;
+    height: 81px;
   }
 
   header {
     background-image: url("./images/halfcircle.png"), url("./images/Rectangle\ 6.png"), url("./images/Rectanglebig\ 4\ \(1\).png"), url("./images/Ellipse\ big.png");
-    background-position: 4% 20%, 0.8% 10%, 90% 5%, 95% 30%;
+    background-position: 5% 30%, 0.8% 21%, 90% 24%, 98% 49%;
     background-repeat: no-repeat, no-repeat;
   }
 
