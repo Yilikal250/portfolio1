@@ -50,7 +50,7 @@ ul li {
   background-color: #6070FF;
   height: 570px;
   width: 300px;
-  display: flex;
+  display: none;
   justify-content: space-between;
   margin-top: 10px;
 }
@@ -636,14 +636,22 @@ footer button {
 }
 
 @media screen and (min-width: 760px) {
+  body {
+    background-color: antiquewhite;
+  }
+
   header {
-    background-image: url("./images/halfcircle.png"), url("./images/Rectangle\ 6.png");
-    background-position: 4% 20%, 0.8% 10%;
+    background-image: url("./images/halfcircle.png"), url("./images/Rectangle\ 6.png"), url("./images/Rectanglebig\ 4\ \(1\).png"), url("./images/Ellipse\ big.png");
+    background-position: 4% 20%, 0.8% 10%, 90% 5%, 95% 30%;
     background-repeat: no-repeat, no-repeat;
   }
 
+  #disc {
+    width: 47vw;
+  }
+
   .introduction {
-    margin: 8% 8% 8% 8%;
+    margin: 8% 8% 8% 20%;
   }
 
   #name {

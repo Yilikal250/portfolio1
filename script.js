@@ -8,7 +8,6 @@ closeMenu.addEventListener('click',close);
 
 function show() {
     popup.style.display = 'flex';
-    popup.style.top ='0'
 }
 
 function close() {
