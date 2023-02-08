@@ -32,9 +32,7 @@ ul li {
   color: white;
 }
 
-.mainMenu a {
-  color: white;
-}
+
 
 .closeMenu {
   margin-right: 30px;
@@ -644,10 +642,9 @@ footer button {
     background-image: url("./images/robo.png");
     background-repeat: no-repeat;
     background-size: 5%;
-    background-position-x: 25%;
+    background-position-x: 23%;
     background-position-y: 46%;
     width: 101%;
-    background-color: teal;
     margin-left: -8px;
     margin-top: -10px;
     height: 81px;
@@ -750,12 +747,12 @@ footer button {
     display: flex;
     flex-direction: row;
     background-position-y: 46%;
-    background-position-x: 8%;
+    background-position-x: 93%;
   }
 
   .fourth {
     margin-bottom: 53%;
-    margin-left: 54%;
+    margin-left: -32%;
   }
 
   .About {
@@ -820,5 +817,17 @@ footer button {
   footer button {
     margin: auto;
     margin-bottom: -20%;
+  }
+
+  .menuD ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50%;
+  }
+
+  ul li {
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: brown;
   }
 }
