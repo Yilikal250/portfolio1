@@ -681,7 +681,7 @@ footer button {
 
   .firsttDetail {
     margin: 8% 8% 8% 8%;
-    background-image: url("./images/Snapshoot\ Portfolio.png");
+    background-image: url("./images/Project1.png");
     background-repeat: no-repeat;
     border: 1px solid #DFE1E6;
     border-radius: 24px;
@@ -689,7 +689,7 @@ footer button {
     height: 300px;
     display: flex;
     flex-direction: row;
-    background-position-y: 46%;
+    background-position-y: 30px;
     background-position-x: 8%;
   }
 
