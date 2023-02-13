@@ -3,14 +3,6 @@
   color: #6070FF;
 }
 
-nav {
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-around;
-  margin-left: 6%;
-  margin-right: 6%;
-}
-
 a:link {
   text-decoration: none;
 }
@@ -125,7 +117,7 @@ ul li {
   justify-content: space-around;
 }
 
-#tonic {
+.tonic {
   margin-top: 20px;
   width: 295px;
   height: 36px;
@@ -145,7 +137,7 @@ ul li {
   margin-left: -20px;
 }
 
-#canopy {
+.canopy {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   margin-left: 10px;
@@ -155,7 +147,7 @@ ul li {
   color: #344563;
 }
 
-#Back {
+.Back {
   background: url("./images/circle.png");
   background-repeat: no-repeat;
   background-position-y: 30%;
@@ -170,7 +162,7 @@ ul li {
   color: #7A869A;
 }
 
-#number {
+.number {
   font-family: 'Poppins', sans-serif;
   padding-left: 25px;
   margin-left: -15px;
@@ -181,7 +173,7 @@ ul li {
   color: #7A869A;
 }
 
-#detail {
+.detail {
   width: 295px;
   height: 76px;
   font-family: 'Poppins', sans-serif;
@@ -246,7 +238,7 @@ ul li {
   padding-right: 19%;
 }
 
-#multi {
+.multi {
   width: 245px;
   height: 80px;
   margin-top: 20px;
@@ -639,11 +631,6 @@ footer button {
   }
 
   .menu {
-    background-image: url("./images/robo.png");
-    background-repeat: no-repeat;
-    background-size: 5%;
-    background-position-x: 23%;
-    background-position-y: 46%;
     width: 101%;
     margin-left: -8px;
     margin-top: -10px;
@@ -659,6 +646,7 @@ footer button {
 
   #disc {
     width: 47vw;
+    animation: fadeIn 10s;
   }
 
   .introduction {
@@ -677,6 +665,12 @@ footer button {
     align-items: center;
     letter-spacing: 0.37px;
     color: #091E42;
+    animation: fadeIn 5s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
   }
 
   .firsttDetail {
@@ -700,7 +694,7 @@ footer button {
 
   .secondtDetail {
     margin: 8% 8% 8% 8%;
-    background-image: url("./images/Snapshoot\ Portfolio.png");
+    background-image: url("./images/Cars.png");
     background-repeat: no-repeat;
     border: 1px solid #DFE1E6;
     border-radius: 24px;
@@ -828,6 +822,15 @@ footer button {
   ul li {
     margin-left: 50px;
     font-family: 'Poppins', sans-serif;
-    color: brown;
+    color: darkblue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6070FF;
+    padding: 6px;
+    border-radius: 10px;
+  }
+
+  ul li:hover {
+    background-color: #6070FF;
   }
 }
