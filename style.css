@@ -268,6 +268,10 @@ ul li {
   height: 50px;
 }
 
+#seeProject:hover {
+background-color: burlywood;
+}
+
 .secondtDetail {
   padding-top: 220px;
   padding-left: 19%;
