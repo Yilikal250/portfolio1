@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/783091a743.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="crossorigin="anonymous"></script>
   
     
     <title>Document</title>
@@ -22,16 +24,16 @@
         <nav class="menuD">
             <img id="robo" src="./images/robo.png" alt="">
             <ul>
-                <li><a href="http://">Home</a></li>
-                <li><a href="http://">Home</a></li>
-                <li><a href="http://">Home</a></li>
-                <li><a href="http://">Home</a></li>
+                <li><a class="active" href="http://">Home</a></li>
+                <li><a href="http://">Projects</a></li>
+                <li><a href="http://">About</a></li>
+                <li><a href="http://">Hobbies</a></li>
             </ul>
-
+            <label id="icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
         </nav>
-        <label id="icon">
-            <i class="fas fa-bars"></i>
-        </label>
+
       </div>
         
         <div class="introduction">
@@ -45,11 +47,11 @@
                 me.</p>
             <p id="connect">LET’S CONNECT</p>
         <div class="image">
-            <img src="./images/twitter.png" alt=""> 
-            <img src="./images/Linkedin icon.png" alt="">
-            <img src="./images/M.png" alt="">  
-            <img src="./images/Git.png" alt="">
-            <img src="./images/Pis.png" alt="">    
+            <a href="http://"><img src="./images/twitter.png" alt=""> </a>
+            <a href="http://"><img src="./images/Linkedin icon.png" alt=""></a>
+            <a href="http://"><img src="./images/M.png" alt="">  </a>
+            <a href="http://"><img src="./images/Git.png" alt=""></a>
+            <a href="http://"><img src="./images/Pis.png" alt="">  </a>      
         </div>    
  
 
@@ -79,7 +81,7 @@
                     <img src="./images/Git.png" alt="">
                     <img src="./images/Pis.png" alt="">    
                 </div>   
-             <button id="aboutseeProject">See Project</button>
+             <button type="button" id="aboutseeProject">See Project</button>
             </div>
 
          <div class="languageContainer">
@@ -110,9 +112,10 @@
             <input type="email" placeholder="teshomeyilikal250@gmail.com" required maxlength="30" pattern=".+@globex\.com">
             <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here" required maxlength="500"></textarea>
         </form>
-        <button>Get in touch</button> 
+        <button id="get" type="button">Get in touch</button> 
         <hr id="lineFoot"> 
     </footer>
+<script src="app.js"></script>    
 <script src="script.js"></script>
 </body>
 </html>

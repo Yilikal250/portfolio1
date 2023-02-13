@@ -17,16 +17,16 @@ const projects = [
    {
     class1:"thirdDetail",
     class2:"third",
-    name:"Cars",
+    name:"Tables",
     class3:"tonic",
-    url:"https://earnest-chaja-d0f74b.netlify.app",
+    url:"https://endearing-mousse-a1efdf.netlify.app",
    },
    {
     class1:"fourthDetail",
     class2:"fourth",
-    name:"Cars",
+    name:"Interests",
     class3:"multi",
-    url:"https://earnest-chaja-d0f74b.netlify.app",
+    url:"https://scintillating-pony-e1bf5b.netlify.app",
    },
 
 
@@ -40,7 +40,7 @@ const projects = [
     div.innerHTML = `   <div class="${projects[i].class1}">
             
     <div class="${projects[i].class2}">
-        <p class=""${projects[i].class3}>${projects[i].name}</p>
+        <p class="${projects[i].class3}">${projects[i].name}</p>
         <div class="dates">
             <p class="canopy">CANOPY</p>
             <p class="Back">Back End Dev</p>
