@@ -1,3 +1,50 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  background-color: #6070FF;
+  height: 80px;
+  width: 100%;
+}
+
+#robo {
+  width: 100px;
+  height: 100px;
+}
+
+nav ul {
+  float: right;
+  margin: 0 8px;
+}
+
+nav a {
+  color:#6070FF;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px;
+  border-radius: 3px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 80px;
+}
+
+.menuD #icon {
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
 .menu h1 {
   margin-left: -35px;
   color: #6070FF;
@@ -23,8 +70,6 @@ ul li {
   align-items: center;
   color: white;
 }
-
-
 
 .closeMenu {
   margin-right: 30px;
@@ -626,16 +671,19 @@ footer button {
 }
 
 @media screen and (min-width: 760px) {
-  body {
-    background-color: floralwhite;
+
+  nav a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px;
+    border-radius: 3px;
   }
 
-  .menu {
-    width: 101%;
-    margin-left: -8px;
-    margin-top: -10px;
-    height: 81px;
-    padding: 14px;
+
+  body {
+    background-color: floralwhite;
   }
 
   header {
@@ -813,24 +861,4 @@ footer button {
     margin-bottom: -20%;
   }
 
-  .menuD ul {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 50%;
-  }
-
-  ul li {
-    margin-left: 50px;
-    font-family: 'Poppins', sans-serif;
-    color: darkblue;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #6070FF;
-    padding: 6px;
-    border-radius: 10px;
-  }
-
-  ul li:hover {
-    background-color: #6070FF;
-  }
 }
