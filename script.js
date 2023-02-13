@@ -24,9 +24,9 @@ const projects = [
    {
     class1:"fourthDetail",
     class2:"fourth",
-    name:"Interests",
+    name:"ExersixeWW3",
     class3:"multi",
-    url:"https://scintillating-pony-e1bf5b.netlify.app",
+    url:"Exersixe.html",
    },
 
 
