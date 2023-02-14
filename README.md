@@ -17,7 +17,7 @@ The My Profile section displays all reserved rockets and space missions.
 
 ## Live Demo
 
-not yet
+https://yilikal250.github.io/portfolio1/
 
 ## Installation
 
